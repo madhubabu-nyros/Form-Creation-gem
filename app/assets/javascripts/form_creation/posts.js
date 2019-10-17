@@ -52,4 +52,28 @@ $(document).ready(function(){
 			},
 		},	
 	});
+	// Reset modal new form
+	$(".close").click(function(){
+		$("#new_post")[0].reset();
+    var validator = $("#new_post").validate();
+		validator.resetForm();
+  });
+  // Reset modal edit form
+  $(".edit_close").click(function(){
+    $(".edit_post")[0].reset();
+    var validator = $(".edit_post").validate();
+		validator.resetForm();
+  });
+  // when click on body, reset modal new form
+  $('#add_post').on('hidden.bs.modal', function () {
+  	$("#new_post")[0].reset();
+   	var validator = $("#new_post").validate();
+		validator.resetForm();
+	});
+	// when click on body, reset modal edit form
+	$('.edit_post-form').on('hidden.bs.modal', function () {
+   	$(".edit_post")[0].reset();
+    var validator = $(".edit_post").validate();
+		validator.resetForm();
+	});
 });

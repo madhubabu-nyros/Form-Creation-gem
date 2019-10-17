@@ -3,7 +3,8 @@ require_dependency "form_creation/application_controller"
 module FormCreation
   class PostsController < ApplicationController
     def index   
-      @posts = Post.order('id DESC')   
+      @posts = Post.order('id DESC')
+      @post = Post.new   
     end   
      
     # GET method to get a Post by id   

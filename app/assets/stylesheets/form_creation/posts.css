@@ -22,17 +22,12 @@
   color: red;
   font-size: 14px;
 }
-.fade:not(.show) {
-  opacity: 0.8 !important;
-}
 .modal-content {
   margin-top: 145px;
 }
 .post-details {
   color: #c56b6b;
-  text-align: center;
-  border-bottom: 1px solid #da9595;
-  margin-bottom: 20px;
+  text-align: left;
 }
 .post-col {
   float: left !important;
@@ -41,4 +36,14 @@
   text-align: center;
   margin-top: 20px;
   clear: both;
+}
+.post-content {
+  margin-top: 0px !important;
+}
+.save {
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+.save-btn {
+  width: 465px;
 }
