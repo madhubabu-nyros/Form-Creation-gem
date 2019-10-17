@@ -1,0 +1,44 @@
+/*
+  Place all the styles related to the matching controller here.
+  They will automatically be included in application.css.
+*/
+.post {
+	width: 400px !important;
+  margin: 70px auto !important;
+  border: 1px solid #ccc;
+  padding: 32px;
+  border-radius: 3px;
+}
+.post-1 {
+	width: 500px !important;
+  margin: 70px auto !important;
+  border: 1px solid #ccc;
+  padding: 32px;
+  border-radius: 3px;
+  box-shadow: 10px 10px 13px #ccc;
+	background-color: #f9f8f8;
+}
+.error {
+  color: red;
+  font-size: 14px;
+}
+.fade:not(.show) {
+  opacity: 0.8 !important;
+}
+.modal-content {
+  margin-top: 145px;
+}
+.post-details {
+  color: #c56b6b;
+  text-align: center;
+  border-bottom: 1px solid #da9595;
+  margin-bottom: 20px;
+}
+.post-col {
+  float: left !important;
+}
+.back-btn {
+  text-align: center;
+  margin-top: 20px;
+  clear: both;
+}

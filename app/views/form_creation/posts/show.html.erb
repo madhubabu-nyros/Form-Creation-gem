@@ -1,0 +1,19 @@
+<!-- Show post based on user id -->
+<div class="container post-1">        
+  <h3 class="post-details">Post Details</h3>   
+  <div class="row">
+    <div class="col-md-4 "><b>Title:</b></div>
+    <div class="col-md-8"><%= @post.title %></div>
+  </div>
+  <div class="row">
+    <div class="col-md-4 "><b>Description:</b></div>
+    <div class="col-md-8 "><%= @post.description %></div>
+  </div>
+  <div class="row">
+    <div class="col-md-4 "><b>Created By:</b></div>
+    <div class="col-md-8"><%= @post.created_by %></div>
+  </div>
+  <div class="back-btn">
+   <%= link_to 'Back', posts_path, class: "btn btn-info" %>
+  </div>
+</div>  
