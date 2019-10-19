@@ -1,10 +1,16 @@
 require_dependency "form_creation/application_controller"
+require 'csv'
 
 module FormCreation
   class PostsController < ApplicationController
     def index   
-      @posts = Post.order('id DESC')
-      @post = Post.new   
+      @posts = Post.order('id ASC')
+      @post = Post.new
+
+      respond_to do |format|
+        format.html
+        format.xls { send_data @posts.to_csv(col_sep: "\t") }
+      end   
     end   
      
     # GET method to get a Post by id   

@@ -26,8 +26,8 @@
   margin-top: 145px;
 }
 .post-details {
-  color: #c56b6b;
-  text-align: left;
+  color: #888;
+  font-weight: bold;
 }
 .post-col {
   float: left !important;
@@ -39,6 +39,7 @@
 }
 .post-content {
   margin-top: 0px !important;
+  background-color: #fff !important;
 }
 .save {
   margin-top: 10px;
@@ -46,4 +47,152 @@
 }
 .save-btn {
   width: 465px;
+}
+.btn {
+  text-decoration: none !important;
+  color: #fff !important;
+  background-color: #3378b7 !important;
+  text-align: center !important;
+  letter-spacing: .5px !important;  
+}
+.btn-2 {
+  border: 1px solid transparent;
+  text-decoration: none !important;
+  color: #fff !important;
+  background-color: #3379b7 !important;
+  text-align: center !important;
+  letter-spacing: .5px !important;  
+}
+.dataTables_filter input {
+  width: 300px;
+  height: 40px;
+  border-radius: 10px;
+  outline: none;
+  padding: 15px;
+}
+.dataTables_length select {
+  width: 70px;
+  height: calc(1.5em + .75rem + 2px);
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: .25rem;
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;  
+}  
+.menu-nav {
+  height: 60px;
+  background-color: #ae99de;
+}
+footer {
+  background-color: #ae99de;
+  color: #fff;
+  margin-top: 100px;
+  text-align: center;
+  padding-top: 8px;
+  bottom: 0;
+  position: relative;
+  width:100%;
+  height: 45px;
+}
+.footer div{
+  padding:10px 0px;
+}
+.add-btn {
+  margin-bottom: 10px;
+  text-align: right;
+  margin-right: 22px;
+  margin-bottom: 20px;
+}
+.dataTables_filter label {
+  font-weight: bold; 
+}
+.form-title {
+  color: #4a3a8e;
+  font-size: 40px;
+  margin-left: 40px;
+  font-weight: bold;
+  text-align: right;
+  position: relative;
+  right: 80px;
+  bottom: 62px;
+}
+.home {
+  text-align: left;
+  font-size: 40px;
+  margin-left: 80px;
+}
+.home a {
+  color: #fff; 
+}
+.home a:hover {
+  color: #fff;
+  text-decoration: none; 
+}
+.eye-color {
+  color: #3197f3;
+  margin-right: 10px;
+}
+.edit-color {
+  color: #f99a0b;
+  margin-right: 10px;
+}
+.delete-color {
+  color: #e72f36;
+}
+.eye-color:hover {
+  cursor: pointer;
+}
+.edit-color:hover {
+  cursor: pointer;
+}
+.delete-color:hover {
+  cursor: pointer;
+}
+#table_posts_length {
+  display: none;
+}
+.download-xls {
+  position: relative;
+  top: 40px;
+  width: auto;
+  float: left;
+  left: 0;
+}
+.dataTables_wrapper{
+  position: inherit !important;
+}
+.form-group label{
+  font-size: 15px;
+}
+.frm-inpts input:focus{
+  outline:0px;
+  box-shadow:none;
+  border: 0px;
+  border-bottom: 1px solid #ccc;
+  border-radius: 0px;
+}
+.frm-inpts-2 textarea:focus{
+  outline:0px;
+  box-shadow:none;
+  border: 0px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.frm-inpts input {
+  border: 0px;
+  border-bottom: 1px solid #ccc;
+  border-radius: 0px;
+  font-size: 15px;
+}
+.frm-inpts input::placeholder{
+  color:#ccc !important;
+}
+.frm-inpts-2 textarea::placeholder{
+  color:#ccc !important;
+  font-size: 14px;
 }

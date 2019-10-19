@@ -1,12 +1,9 @@
-<div class="form-group">   
-  <label>Title</label>   
-  <%= f.text_field :title, class: "form-control", name: "title" %>   
+<div class="form-group frm-inpts">   
+  <%= f.text_field :title, class: "form-control", name: "title", placeholder: "Enter  Title" %>   
 </div>   
-<div class="form-group">   
-  <label>Description</label>   
-  <%= f.text_area :description, class: "form-control", rows: "5", cols: "10", style: "resize:none;", name: 'description' %>   
+<div class="form-group frm-inpts-2">   
+  <%= f.text_area :description, class: "form-control", rows: "5", cols: "10", style: "resize:none;", name: 'description', placeholder: "Enter Description..." %>   
 </div>   
-<div class="form-group">   
-  <label>Created By</label>   
-  <%= f.text_field :created_by, class: "form-control", name: "created_by" %>   
+<div class="form-group frm-inpts">   
+  <%= f.text_field :created_by, class: "form-control", name: "created_by", placeholder: "Enter Create By" %>   
 </div>

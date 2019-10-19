@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    form_creation (0.1.5)
+    form_creation (0.1.9)
       rails (~> 5.2.3)
 
 GEM
@@ -50,6 +50,7 @@ GEM
       tzinfo (~> 1.1)
     arel (9.0.0)
     builder (3.2.3)
+    coderay (1.1.2)
     concurrent-ruby (1.1.5)
     crass (1.0.4)
     erubi (1.9.0)
@@ -77,6 +78,9 @@ GEM
     nio4r (2.5.2)
     nokogiri (1.10.4)
       mini_portile2 (~> 2.4.0)
+    pry (0.12.2)
+      coderay (~> 1.1.0)
+      method_source (~> 0.9.0)
     rack (2.0.7)
     rack-test (1.1.0)
       rack (>= 1.0, < 3)
@@ -127,6 +131,7 @@ DEPENDENCIES
   form_creation!
   jquery-rails
   mysql2
+  pry
 
 BUNDLED WITH
    2.0.2

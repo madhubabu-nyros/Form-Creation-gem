@@ -15,3 +15,4 @@ gemspec
 # gem 'byebug', group: [:development, :test]
 gem 'mysql2'
 gem 'jquery-rails'
+gem 'pry'

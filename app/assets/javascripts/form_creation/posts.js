@@ -75,4 +75,7 @@ $(document).ready(function() {
     var validator = $(".edit_post").validate();
     validator.resetForm();
   });
+  $('#table_posts').DataTable({
+  	 "order": [[ 0, "desc" ]]
+  });
 });

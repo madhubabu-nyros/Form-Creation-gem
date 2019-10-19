@@ -27,6 +27,6 @@ Gem::Specification.new do |spec|
 
   spec.add_dependency "rails", "~> 5.2.3"
 
-  spec.add_development_dependency "mysql2"
+  spec.add_development_dependency "mysql2", '~> 0.5.2' 
   spec.add_development_dependency 'jquery-rails', '~> 4.3', '>= 4.3.5'
-end
+end 
